@@ -27,7 +27,7 @@ const initialState: Foods = {
 const API_URL = "https://6777b7b280a79bf91902b4ff.mockapi.io/Food";
 
 const Food = () => {
-    const [data, setData] = useState<Foods>(initialState)
+    const [, setData] = useState<Foods>(initialState)
     const [food, setFood] = useState<Foods[]>([])
     const [reload, setReload] = useState(false);
     const [isModalOpen, setIsModalOpen] = useState(false);
